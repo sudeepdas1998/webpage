@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudeep Das - Ocean Analyst & Climate Researcher</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sudeep Das - Ocean Analyst & Climate Researcher specializing in phytoplankton dynamics, biogeochemical cycles, and marine ecology. PhD candidate at IIT Bhubaneswar.">
+    <meta name="keywords" content="ocean analyst, climate researcher, phytoplankton, biogeochemical cycles, marine ecology, oceanography, IIT Bhubaneswar">
+    <meta name="author" content="Sudeep Das">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Sudeep Das - Ocean Analyst & Climate Researcher">
+    <meta property="og:description" content="Ocean Analyst & Climate Researcher specializing in phytoplankton dynamics, biogeochemical cycles, and marine ecology.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sudeepdas1998.github.io/webpage/">
+    <meta property="og:image" content="https://sudeepdas1998.github.io/webpage/me.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sudeep Das - Ocean Analyst & Climate Researcher">
+    <meta name="twitter:description" content="Ocean Analyst & Climate Researcher specializing in phytoplankton dynamics, biogeochemical cycles, and marine ecology.">
+    <meta name="twitter:image" content="https://sudeepdas1998.github.io/webpage/me.jpg">
+    
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23F2F7FA'/%3E%3Cpath d='M0 18c4-3 8-1 12-3s8-2 12 0c4 2 8 0 8 4v13H0V18z' fill='%231CA9C9'/%3E%3Cpath d='M0 22c3-2 6 0 9-1s6-1 9 1c3 2 6 0 9 2c3 2 5 1 5 3v5H0v-10z' fill='%23127475'/%3E%3Cpath d='M0 26c2-1 4 0 6-1s4 0 6 1c2 1 4 0 6 1s4 0 6 1c2 1 2 0 2 1v3H0v-6z' fill='%230B3954'/%3E%3C/svg%3E">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -49,6 +68,27 @@
         </div>
     </div>
 
+    <!-- Research Navigator -->
+    <div class="research-navigator" id="researchNav">
+        <div class="nav-dots">
+            <div class="nav-dot active" data-section="current-research" title="Current Research">
+                <i class="fas fa-microscope"></i>
+            </div>
+            <div class="nav-dot" data-section="previous-research" title="Previous Research">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="nav-dot" data-section="publications" title="Publications">
+                <i class="fas fa-file-alt"></i>
+            </div>
+            <div class="nav-dot" data-section="conferences" title="Conferences">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="nav-dot" data-section="upcoming" title="Upcoming Work">
+                <i class="fas fa-clock"></i>
+            </div>
+        </div>
+    </div>
+
     <!-- Main Content -->
     <main class="main-content">
         <!-- Home Tab -->
@@ -76,7 +116,7 @@
                     I am a Project Associate at the Ocean Analysis and Modeling Laboratory, School of Earth, Ocean, and Climate Sciences, IIT Bhubaneswar. My research examines the influence of oceanic processes on biophysical parameters—such as phytoplankton dynamics and dissolved oxygen—in the Bay of Bengal. In the long term, I aim to understand the impacts of climate change on ocean productivity.
                 </p>
                 <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 1.5rem;">
-                    I specialize in working with diverse datasets and methods, including remote sensing, advanced statistics, modeling, in-situ observations, and fieldwork. Originally from Bhubaneswar, the coastal heritage "Temple City," I draw inspiration from both science and place in my work.
+                    I specialize in working with diverse datasets and methods, including remote sensing, advanced statistics, modeling, in-situ observations, and fieldwork. Originally from Bhubaneswar, the coastal heritage "Temple City," I draw inspiration from both science and place in my work. I have submitted my PhD thesis for review in August 2025.
                 </p>
                 <p style="font-size: 1.1rem; line-height: 1.8; color: #666; margin-bottom: 2rem;">
                     I am open to discussions and collaborations. You can find more about me and my research through the quick links to my CV, research portfolio, and resume page provided below.
@@ -356,7 +396,7 @@
 
         <!-- Research Tab -->
         <div id="research" class="tab-content">
-            <h2 class="section-title">Research</h2>
+            <h2 class="section-title" id="current-research">Research</h2>
             
             <!-- Current Research Section -->
             <div class="research-section">
@@ -372,7 +412,7 @@
             </div>
 
             <!-- Previous Research Works Section -->
-            <div class="research-section">
+            <div class="research-section" id="previous-research">
                 <h3 class="research-subsection-title">Previous Research Works</h3>
                 
                 <!-- Global and Regional Classification Subsection -->
@@ -405,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-            </div>            <h2 class="section-title">Publications</h2>
+            </div>            <h2 class="section-title" id="publications">Publications</h2>
             <div class="publications-list">
                 <div class="publication-item">
                     <img src="logos/Elsevier_logo_2019.svg" alt="Elsevier Logo" class="publication-logo">
@@ -452,7 +492,7 @@
                 </div>
             </div>
 
-            <h2 class="section-title" style="margin-top: 2rem;">Conference Presentations</h2>
+            <h2 class="section-title" style="margin-top: 2rem;" id="conferences">Conference Presentations</h2>
             <div class="experience-item">
                 <div class="experience-period">2025</div>
                 <div class="experience-title">Sources and Fate of Deep DO in the Bay of Bengal</div>
@@ -496,7 +536,7 @@
                 <div class="experience-authors">Das, S., & Pandithurai, G.</div>
             </div>
 
-            <h2 class="section-title" style="margin-top: 2rem;">Upcoming Work</h2>
+            <h2 class="section-title" style="margin-top: 2rem;" id="upcoming">Upcoming Work</h2>
             <div class="experience-item">
                 <div class="experience-period">2025</div>
                 <div class="experience-title">Spatiotemporal Variability of DO and the Oxygen Minimum Zone, and its Controlling Factors in the Bay of Bengal</div>
@@ -518,6 +558,11 @@
             <p style="font-size: 1rem; line-height: 1.6; color: #666; margin-bottom: 1.5rem;">
                 Capturing landscapes and cultures across continents, from London's historic streets to Goa's pristine beaches.
             </p>
+            
+            <!-- Mobile Photo Gallery Disclaimer -->
+            <div class="mobile-disclaimer">
+                <p><i class="fas fa-info-circle"></i> Photo galleries are best viewed on desktop. Click on any destination to explore the full collection!</p>
+            </div>
             
             <!-- Compact Travel Gallery -->
             <div class="travel-gallery-compact">
@@ -794,9 +839,15 @@
                 // Show/hide section navigator
                 if (tabId === 'about') {
                     $('#sectionNav').addClass('visible');
+                    $('#researchNav').removeClass('visible');
                     setTimeout(updateActiveSection, 100);
+                } else if (tabId === 'research') {
+                    $('#researchNav').addClass('visible');
+                    $('#sectionNav').removeClass('visible');
+                    setTimeout(updateActiveResearchSection, 100);
                 } else {
                     $('#sectionNav').removeClass('visible');
+                    $('#researchNav').removeClass('visible');
                 }
                 
                 // Scroll to top
@@ -804,7 +855,7 @@
             });
 
             // Section navigation functionality
-            $('.nav-dot').click(function() {
+            $('.section-navigator .nav-dot, .research-navigator .nav-dot').click(function() {
                 const sectionId = $(this).data('section');
                 const target = $(`#${sectionId}`);
                 
@@ -836,8 +887,35 @@
                 });
                 
                 if (activeSection) {
-                    $('.nav-dot').removeClass('active');
-                    $(`.nav-dot[data-section="${activeSection}"]`).addClass('active');
+                    $('.section-navigator .nav-dot').removeClass('active');
+                    $(`.section-navigator .nav-dot[data-section="${activeSection}"]`).addClass('active');
+                }
+            }
+
+            // Update active research section indicator on scroll
+            function updateActiveResearchSection() {
+                if (!$('#research').hasClass('active')) return;
+                
+                const scrollTop = $(window).scrollTop() + 150;
+                let activeSection = null;
+                
+                const researchSections = ['current-research', 'previous-research', 'publications', 'conferences', 'upcoming'];
+                
+                researchSections.forEach(sectionId => {
+                    const element = $(`#${sectionId}`);
+                    if (element.length) {
+                        const elementTop = element.offset().top;
+                        const elementBottom = elementTop + element.outerHeight();
+                        
+                        if (scrollTop >= elementTop && scrollTop < elementBottom) {
+                            activeSection = sectionId;
+                        }
+                    }
+                });
+                
+                if (activeSection) {
+                    $('.research-navigator .nav-dot').removeClass('active');
+                    $(`.research-navigator .nav-dot[data-section="${activeSection}"]`).addClass('active');
                 }
             }
 
@@ -866,6 +944,7 @@
             $(window).scroll(function() {
                 // Update section navigator
                 updateActiveSection();
+                updateActiveResearchSection();
                 
                 // Animate elements on scroll
                 $('.experience-item, .education-item, .publication-item').each(function() {
@@ -888,22 +967,44 @@
                 'transition': 'all 0.3s ease'
             });
 
-            // Travel Photography Mosaic Gallery
+            // Travel Photography Mosaic Gallery - Desktop Only
             $('.destination-card').click(function() {
-                const destinationName = $(this).find('h3').text();
-                const photos = [];
-                
-                // Collect all photos from the mosaic and hidden photos
-                $(this).find('.mosaic-main img, .mosaic-grid img, .hidden-photos img').each(function() {
-                    photos.push({
-                        src: $(this).attr('src'),
-                        alt: $(this).attr('alt')
+                // Only work on desktop (above 768px)
+                if (window.innerWidth > 768) {
+                    const destinationName = $(this).find('h3').text();
+                    const photos = [];
+                    
+                    // Collect all photos from the mosaic and hidden photos
+                    $(this).find('.mosaic-main img, .mosaic-grid img, .hidden-photos img').each(function() {
+                        photos.push({
+                            src: $(this).attr('src'),
+                            alt: $(this).attr('alt')
+                        });
                     });
+                    
+                    showPhotoGrid(destinationName, photos);
+                }
+            });
+
+            function showPhotoGrid(destination, photos) {
+                $('#gridDestination').text(destination);
+                
+                // Clear and populate photos grid
+                const photosGrid = $('#photosGrid');
+                photosGrid.empty();
+                
+                photos.forEach(function(photo) {
+                    const photoDiv = $(`
+                        <div class="grid-photo">
+                            <img src="${photo.src}" alt="${photo.alt}">
+                        </div>
+                    `);
+                    photosGrid.append(photoDiv);
                 });
                 
-                // Show grid modal
-                showPhotoGrid(destinationName, photos);
-            });
+                $('#photoGridModal').addClass('active');
+                $('body').css('overflow', 'hidden');
+            }
 
             function showPhotoGrid(destination, photos) {
                 $('#gridDestination').text(destination);

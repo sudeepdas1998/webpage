@@ -5,7 +5,7 @@ Allow: /
 Disallow:
 
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://sudeepdas1998.github.io/webpage/sitemap.xml
 
 # Optional: Crawl delay (in seconds) - uncomment if needed
 # Crawl-delay: 1
