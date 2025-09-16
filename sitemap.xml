@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main page -->
+    <url>
+        <loc>https://yourdomain.com/</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Home section -->
+    <url>
+        <loc>https://yourdomain.com/#home</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Resume/About section -->
+    <url>
+        <loc>https://yourdomain.com/#about</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Research section -->
+    <url>
+        <loc>https://yourdomain.com/#research</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Hobbies section -->
+    <url>
+        <loc>https://yourdomain.com/#hobbies</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- CV PDF -->
+    <url>
+        <loc>https://yourdomain.com/CV_Sudeep.pdf</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+</urlset>
